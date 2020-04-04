@@ -79,6 +79,7 @@ h4 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   gap: 10px;
+  box-sizing: border-box;
 }
 
 .site-nav {
@@ -94,6 +95,7 @@ h4 {
   grid-row: 1;
   padding-bottom: 10px;
   border-bottom: 2px solid var(--primary);
+  display: inline-block;
 }
 
 #welcome {
